@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -10,11 +10,8 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class RecipeStartComponent implements OnInit {
+export class RecipeStartComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
